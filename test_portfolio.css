@@ -14,9 +14,7 @@ body {
   margin: 0 auto;
   padding: 0;
   background-color: black;
-  background-image: url('http://www.edmsauce.com/wp-content/uploads/2015/01/Ark-Patrol.jpg');
-  /*background-image: url('http://blog.hdwallsource.com/wp-content/uploads/2014/11/holiday-decoration-41223-42208-hd-wallpapers-1024x640.jpg');*/
-  /*http://clipart-library.com/images/yckrdBKRi.jpg'*/
+  background-image: url('file:///Users/mikosflower/Documents/wyncode/portfolio/test_portfolio/tracks.jpg');
   color: #96858F;
   color: white;
   background-position: center;
@@ -28,7 +26,7 @@ body {
 
 h1 { color: white;
   font-weight: bolder;
-  padding-top: 90px;
+  padding-top: 75px;
   position:relative;
 }
 
@@ -36,11 +34,10 @@ h1 { color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
+  height: 85%;
   width: 75%;
-  margin: 0 auto;
-  border-left: 1px;
-  border-right: 1px;
+  margin: 60px auto;
+  border: 2px 1px 0px 1px;
   border-color: white;
   border-style: solid;
 
@@ -56,7 +53,7 @@ font-family: 'Lora', serif;
 font-size: 30px;
 font-weight: 100;
 position: relative;
-top: 85px;
+top: 65px;
 }
 
 
