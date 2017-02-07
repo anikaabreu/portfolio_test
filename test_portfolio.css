@@ -1,0 +1,105 @@
+
+/**OVERALL**/
+
+html, body {
+width: 100%;
+height: 100%;
+margin:0px;
+padding: 0px;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: lighter;
+  margin: 0 auto;
+  padding: 0;
+  background-color: black;
+  background-image: url('http://www.edmsauce.com/wp-content/uploads/2015/01/Ark-Patrol.jpg');
+  /*background-image: url('http://blog.hdwallsource.com/wp-content/uploads/2014/11/holiday-decoration-41223-42208-hd-wallpapers-1024x640.jpg');*/
+  /*http://clipart-library.com/images/yckrdBKRi.jpg'*/
+  color: #96858F;
+  color: white;
+  background-position: center;
+  background-size: cover;
+
+}
+
+/**MAIN**/
+
+h1 { color: white;
+  font-weight: bolder;
+  padding-top: 90px;
+  position:relative;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+  border-left: 1px;
+  border-right: 1px;
+  border-color: white;
+  border-style: solid;
+
+}
+
+#myname {
+  font-size: 9em;
+
+}
+
+.main_text {
+font-family: 'Lora', serif;
+font-size: 30px;
+font-weight: 100;
+position: relative;
+top: 85px;
+}
+
+
+/**BUTTONS**/
+
+.buttons{
+  color: #96858F;
+  font-size: 5em;
+  align-items: left;
+  padding-left: 40px;
+
+}
+
+a, a:visited  {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus {
+  color: #969593;
+}
+
+a:hover {
+  color: #969593;
+}
+
+.button_styling {
+  position: relative;
+  padding-top: 95px;
+  /*top: -30px;*/
+  padding-left: -10px;
+}
+
+/**MEDIA QUERY**/
+@media only screen and (max-width: 1200px)
+
+
+{ /**HEADER**/
+  #myname {
+    font-size: 5em;
+  }
+
+
+.main_text {
+font-size: 40px;
+}
