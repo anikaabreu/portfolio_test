@@ -19,7 +19,7 @@ body {
   background-position: center;
   background-size: cover;
   /*background-color: rgba(0,0,0,0);*/
-  transition: background-image 1s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 
@@ -27,7 +27,7 @@ body {
 
 h1 { color: white;
   font-weight: bolder;
-  padding-top: 60px;
+  padding-top: 30px;
   position:relative;
 }
 
@@ -54,7 +54,7 @@ font-family: 'Lora', serif;
 font-size: 30px;
 font-weight: 100;
 position: relative;
-top: 45px;
+top: 15px;
 }
 
 
@@ -64,7 +64,7 @@ top: 45px;
   color: #96858F;
   font-size: 5em;
   align-items: left;
-  padding-left: 60px;
+  /*padding-left: 60px;*/
 
 }
 
@@ -96,6 +96,11 @@ url("file:///Users/mikosflower/Documents/wyncode/portfolio/test_portfolio/linked
   color: black;
 }
 
+.fourth_button_hover {
+background-image: url('https://cdn5.img.sputniknews.com/images/101807/27/1018072721.jpg');
+
+}
+
 .main_text_hover {
   color: black;
 }
@@ -106,7 +111,7 @@ a:hover {
 
 .button_styling {
   position: relative;
-  padding-top: 95px;
+  padding-top: 55px;
   padding-left: -10px;
 }
 

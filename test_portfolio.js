@@ -6,7 +6,7 @@
 
 $('#linkedin').hover(function(){
     $('body').attr('class', 'first_button_bg_hover');
-    $('body').css(['color', 'black']);
+    // $('body').css(['color', 'black']);
 }, function() {
   $('body').attr('class', 'button_bg');
   });
@@ -26,7 +26,7 @@ $('#email').hover(function() {
 });
 
 $('#tel').hover(function() {
-    $('body').attr('class', 'button_bg');
+    $('body').attr('class', 'fourth_button_hover');
 }, function() {
     $('body').attr('class', 'button_bg');
 });
